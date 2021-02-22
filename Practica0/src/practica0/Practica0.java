@@ -26,19 +26,7 @@ public class Practica0 {
     }
     
     public static void tipoNumero(){
-        int num;
-    
-        Scanner entrada = new Scanner(System.in);
-                
-        System.out.println("Introduce un numero");
-        num = Integer.parseInt(entrada.nextLine());
         
-        if(num % 2 == 0){
-            System.out.println("El numero es par");
-        }
-        else{
-            System.out.println("El numero es impar");
-        }
     }
     
     public static void main(String[] args) {
